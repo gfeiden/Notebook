@@ -1,0 +1,5 @@
+# Daily Notes
+
+Already the name is a bit of a misnomer. While one might expect an actual log of daily activities or thoughts, this collection of notes is more about aggregating random thoughts and ideas. Perhaps some simple explorations of topics that might have piqued my interest on a given day. What sets this collection apart from, say, the [Projects](https://github.com/gfeiden/Notebook/tree/master/Projects/) or [Dev](https://github.com/gfeiden/Notebook/tree/master/Dev/) collections, is a certain lack of cohesion. 
+
+However, in an effort to maintain some amount of insight into the contents of individual notes, I attempt to provide a mildly informative naming convention. First, the date on which the note was _created_ in the form of YYYYMMDD, providing some semblence of order chronologically. The date is then followed by the general topic under consideration. To summarize in an example, there is a note titled [20150726\_theory\_of\_spots](https://github.com/gfeiden/Notebook/tree/master/Daily/20150726_theory_of_spots.ipynb), which provides some notes on my current understanding of (star/sun)spot theory.
