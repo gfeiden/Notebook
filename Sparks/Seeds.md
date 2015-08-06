@@ -4,7 +4,7 @@
 
 A previous idea was that PCEB stars may be preferentially metal-rich after accreting material ejected by the primary star. In particular, the existence of [KOI-256](http://adsabs.harvard.edu/abs/2013ApJ...767..111M) and the case of [CM Dra](http://adsabs.harvard.edu/abs/2014A%26A...571A..70F), which appears at the metal-rich tail of the distribution for thick disk stars. White dwarf companion suggests an AGB tertiary once existed, perhaps CM Dra stars accreted material and are now metal rich?
 
-Now, there was a tweet from M. Collins about a talk given by Starkenberg, 
+Now, there was a tweet from M. Collins about a talk given by Starkenburg, 
 
 <blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">Starkenburg: Carbon enhanced stars can’t all be aGB stars, because see them all over CMD. Could be AGB companions? <a href="https://twitter.com/hashtag/IAUS317?src=hash">#IAUS317</a> <a href="https://twitter.com/hashtag/IAU2015?src=hash">#IAU2015</a></p>&mdash; Michelle Collins (@michelle_lmc) <a href="https://twitter.com/michelle_lmc/status/629377540684148736">August 6, 2015</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
