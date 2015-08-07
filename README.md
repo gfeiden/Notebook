@@ -18,7 +18,9 @@ Categories are:
 
 * LitRev: my review of papers in the academic literature (mostly).
 
-* Projects: Works in progress that will results in a submitted manuscript.
+* Projects: works in progress that will result in a submitted manuscript.
+
+* Sparks: ideas that might be interesting to investigate further.
 
 ## Collaboration
 
