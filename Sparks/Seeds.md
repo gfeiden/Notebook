@@ -1,5 +1,9 @@
 # Seeds
 
+### Isochrone creation (2015-08-14)
+
+Based on an idea I had some time ago. For isochrone creation, equivalent evolutionary phase (EEP) approach works well, but there may be some slight issues. Nothing severe. However, I wonder if it's possible to use information regarding core/envelope mass distribution (from k2) to help define unique evolutionary sequences? Early investigation hints that various derivatives may provide a better guide (selecting changes of concavity and local mins/maxs).
+
 ### AGB star companions (2015-08-06)
 
 A previous idea was that PCEB stars may be preferentially metal-rich after accreting material ejected by the primary star. In particular, the existence of [KOI-256](http://adsabs.harvard.edu/abs/2013ApJ...767..111M) and the case of [CM Dra](http://adsabs.harvard.edu/abs/2014A%26A...571A..70F), which appears at the metal-rich tail of the distribution for thick disk stars. White dwarf companion suggests an AGB tertiary once existed, perhaps CM Dra stars accreted material and are now metal rich?
