@@ -1,5 +1,9 @@
 # Seeds
 
+### AGB convection (2015-08-19)
+
+For work with Freytag & Höfner. Calibrating mixing length theory (has been previously done for MS stars) for AGB stars _without_ requiring an extensive look at AGB evolution models&mdash;at first. Begin with reformulating MLT or fiddling with parameter to derive similar atmospheric thermal structures as RHD simulations. Aim to reproduce the median thermal structure from RHD simulations? Is there a significant difference between median thermal structure and a mean thermal structure? During TP-AGB phase, we can investigate having a continuously changing MLT theory?
+
 ### Isochrone creation (2015-08-14)
 
 Based on an idea I had some time ago. For isochrone creation, equivalent evolutionary phase (EEP) approach works well, but there may be some slight issues. Nothing severe. However, I wonder if it's possible to use information regarding core/envelope mass distribution (from k2) to help define unique evolutionary sequences? Early investigation hints that various derivatives may provide a better guide (selecting changes of concavity and local mins/maxs).
