@@ -1,0 +1,99 @@
+#  
+#   VizieR Astronomical Server vizier.u-strasbg.fr
+#    Date: 2015-05-22T00:37:53 [V1.99+ (14-Oct-2013)]
+#   In case of problem, please report to: cds-question@unistra.fr
+# 
+#   
+#Coosys J2000: eq_FK5 J2000 
+#INFO votable-version=1.99+ (14-Oct-2013) 
+#INFO -ref=VIZ555e7a516060 
+#INFO -out.max=unlimited 
+#INFO queryParameters=22 
+#-oc.form=sexa
+#-out.max=unlimited
+#-nav=cat:J/ApJS/176/262&tab:{J/ApJS/176/262/prsp01}&key:source=J/ApJS/176/262/prsp01&HTTPPRM:&
+#-c.eq=J2000
+#-c.r=  2
+#-c.u=arcmin
+#-c.geom=r
+#-source=J/ApJS/176/262/prsp01
+#-order=I
+#-out=WEBDA
+#-out=OName
+#-out=Bin
+#-out=Vmag
+#-out=e_Vmag
+#-out=V-Rc
+#-out=e_V-Rc
+#-out=Rc-Ic
+#-out=e_Rc-Ic
+#-out=_RA
+#-out=_DE
+#-out=Simbad
+#Simbad=Simbad
+#
+#RESOURCE=yCat_21760262
+#Name: J/ApJS/176/262
+#Title: VRI photometry and theta values in open clusters (Taylor+, 2008)
+#Table J_ApJS_176_262_prsp01:
+#Name: J/ApJS/176/262/prsp01
+#Title: Cousins VRI Photometry for Praesepe stars
+#---Details of Columns:
+#   WEBDA         (I4)    WEBDA number [ucd=meta.id;meta.main]
+#   OName         (a7)    Alternate designation (1) [ucd=meta.id]
+#   Bin           (A1)    "B" for binary, blank otherwise [ucd=meta.code.multip]
+#   Vmag (mag)    (F7.3)  V magnitude (2) [ucd=phot.mag;em.opt.V]
+#   e_Vmag (mag)  (F7.4)  V standard error [ucd=stat.error;phot.mag;em.opt.V]
+#   V-Rc (mag)    (F7.3)  Cousins/Landolt V-R (2) [ucd=phot.color;em.opt.V;em.opt.R]
+#   e_V-Rc (mag)  (F7.4)  Cousins/Landolt V-R standard error [ucd=stat.error;phot.color;em.opt.V]
+#   Rc-Ic (mag)   (F7.3)  Cousins R-I (2) [ucd=phot.color;em.opt.R;em.opt.I]
+#   e_Rc-Ic (mag) (F7.4)  Cousins R-I standard error [ucd=stat.error;phot.color;em.opt.R]
+#   _RA (deg)     (F9.5)  Right Ascension (J2000) from SIMBAD (not part of the original data) [ucd=pos.eq.ra;meta.main]
+#   _DE (deg)     (F9.5)  Declination (J2000) from SIMBAD (not part of the original data) [ucd=pos.eq.dec;meta.main]
+#   Simbad        (a6)    ask the {\bf\fg{FireBrick}Simbad} data-base about this object [ucd=]
+#---- ------- - ------- ------- ------- ------- ------- ------- --------- --------- ------
+#             B                                                                           
+#W            i Vma     e_Vma   V-R     e_V-R   Rc-I    e_Rc-I                            
+#EBDA OName   n g (mag) g (mag) c (mag) c (mag) c (mag) c (mag) _RA (deg) _DE (deg) Simbad
+#---- ------- - ------- ------- ------- ------- ------- ------- --------- --------- ------
+  31 KW 31       9.726  0.0080   0.305  0.0062   0.282  0.0074 129.36669 +19.56248 Simbad
+  34 KW 34       9.457  0.0046   0.242  0.0039   0.253  0.0042 129.36747 +19.16235 Simbad
+  40 KW 40       7.767  0.0053   0.099  0.0037   0.091  0.0043 129.40415 +19.73291 Simbad
+  45 KW 45       8.256  0.0080   0.116  0.0074   0.152  0.0074 129.41961 +19.51842 Simbad
+  90 KW 90      10.913  0.0041   0.402  0.0029   0.372  0.0035 129.55944 +19.36539 Simbad
+ 124 KW 124      9.000  0.0052   0.189  0.0036   0.189  0.0043 129.69561 +19.50093 Simbad
+ 127 KW 127     10.800  0.0051   0.333  0.0039   0.324  0.0047 129.70853 +20.06763 Simbad
+ 155 KW 155      9.426  0.0046   0.241  0.0039   0.232  0.0040 129.79246 +19.67839 Simbad
+ 164 KW 164     11.335  0.0150   0.398  0.0026   0.365  0.0034 129.81266 +20.21076 Simbad
+ 181 KW 181     10.488  0.0051   0.339  0.0039   0.325  0.0047 129.85427 +19.45929 Simbad
+ 182 KW 182     10.314  0.0041   0.365  0.0029   0.335  0.0035 129.87693 +20.06903 Simbad
+ 203 KW 203      7.736  0.0080   0.124  0.0044   0.123  0.0052 129.92828 +20.08622 Simbad
+ 222 KW 222     10.114  0.0051   0.277  0.0039   0.271  0.0047 129.97945 +20.06502 Simbad
+ 232 KW 232      9.238  0.0046   0.230  0.0032   0.230  0.0039 129.99616 +20.03142 Simbad
+ 238 KW 238     10.293  0.0059   0.300  0.0040   0.287  0.0046 130.00260 +19.80656 Simbad
+ 244 KW 244     10.014  0.0290   0.350  0.0039   0.324  0.0036 130.00713 +18.99986 Simbad
+ 250 KW 250      9.796  0.0046   0.274  0.0031   0.261  0.0041 130.02062 +19.72921 Simbad
+ 265 KW 265      6.606  0.0043  -0.007  0.0033   0.002  0.0039 130.04772 +19.97113 Simbad
+ 268 KW 268      9.876  0.0062   0.277  0.0053   0.290  0.0052 130.05152 +19.63948 Simbad
+ 271 KW 271      8.821  0.0046   0.180  0.0031   0.177  0.0037 130.06396 +19.99430 Simbad
+ 276 KW 276      7.541  0.0057   0.072  0.0044   0.073  0.0052 130.07541 +19.53199 Simbad
+ 279 KW 279      7.695  0.0057   0.095  0.0044   0.074  0.0063 130.08645 +19.68673 Simbad
+ 288 KW 288     10.698  0.0046   0.333  0.0036   0.308  0.0058 130.09484 +19.46469 Simbad
+ 295 KW 295      9.379  0.0062   0.252  0.0044   0.233  0.0052 130.10893 +19.68647 Simbad
+ 318 KW 318      8.657  0.0062   0.162  0.0044   0.163  0.0052 130.13734 +19.19433 Simbad
+ 341 KW 341     10.303  0.0049   0.296  0.0032   0.281  0.0035 130.21887 +19.48324 Simbad
+ 370 KW 370      9.032  0.0057   0.210  0.0042   0.203  0.0046 130.29450 +19.82954 Simbad
+ 371 KW 371     10.101  0.0051   0.279  0.0040   0.275  0.0047 130.29194 +19.50883 Simbad
+ 418 KW 418     10.481  0.0046   0.317  0.0036   0.297  0.0058 130.43277 +20.22686 Simbad
+ 439 KW 439      9.440  0.0080   0.227  0.0062   0.251  0.0074 130.49092 +18.91172 Simbad
+ 445 KW 445      7.976  0.0080   0.102  0.0062   0.124  0.0074 130.52707 +19.41126 Simbad
+ 458 KW 458      9.713  0.0080   0.315  0.0062   0.288  0.0074 130.58387 +20.03660 Simbad
+ 459 KW 459      9.228  0.0052   0.227  0.0036   0.226  0.0046 130.59006 +20.18164 Simbad
+ 478 KW 478      9.694  0.0052   0.260  0.0036   0.248  0.0043 130.68506 +19.57996 Simbad
+ 495 KW 495      9.937  0.0051   0.358  0.0039   0.333  0.0063 130.77474 +19.43757 Simbad
+ 508 KW 508     10.761  0.0051   0.334  0.0039   0.326  0.0047 130.83414 +19.76905 Simbad
+ 515 KW 515     10.131  0.0059   0.287  0.0039   0.285  0.0047 130.89807 +20.18958 Simbad
+ 553 KW 553     10.153  0.0051   0.263  0.0039   0.261  0.0047 131.03059 +20.07692 Simbad
+
+#END#  -ref=VIZ555e7a516060 ===================================================================
+
