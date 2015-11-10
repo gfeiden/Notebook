@@ -1,0 +1,489 @@
+algebn.f:50:      COMMON/SPACE1/A1,A2,A3,D1,D2,B1,B2,B3,C,Q1,O1,
+archiv.f:23:C        COMMONS SHARED BY MAIN PROGRAM
+archiv.f:25:      COMMON /TAUC/TAU(NDP),DTAULN(NDP),JTAU
+archiv.f:26:      COMMON/STATEC/PRAD(NDP),PTURB(NDP),P(NDP),GG(NDP),ZZ(NDP),DD(NDP),
+archiv.f:29:      COMMON /ROSSC/XKAPR(NDP),CROSS(NDP)
+archiv.f:30:      common /exactross/rossexact
+archiv.f:31:      COMMON /CTEFF/TEFF,FLUX
+archiv.f:32:      COMMON/CG/G
+archiv.f:33:      COMMON /MIXC/PALFA,PBETA,PNY,PY
+archiv.f:34:      COMMON /CSTYR/MIHAL,NOCONV
+archiv.f:35:      COMMON/CLINE4/ILINE
+archiv.f:38:      COMMON/CARC1/ISTRAL,IDRAB1,IDRAB2,IDRAB3,IDRAB4,IDRAB5,IDRAB6,
+archiv.f:40:      COMMON/CFIL/IRESET(numbset),IDUM3,IDUM4
+archiv.f:41:      COMMON /CVAAGL/NLB,XLB(lpoint),W(lpoint)
+archiv.f:42:      COMMON /CXLSET/nset,NL(numbset),XL(20,numbset)
+archiv.f:43:      COMMON /CSPHER/NCORE,DIFLOG,RADIUS,RR(NDP) /CTAUM/TAUM
+archiv.f:46:      common/macroturb/ macrovel,macrobeta
+archiv.f:47:C        COMMON SHARED BY SOLVE
+archiv.f:48:      COMMON /CARC2/TKORRM(NDP),FCCORR(NDP),FLUXME(lpoint),INORD,
+archiv.f:50:      common /carc2c/ fluxmec(lpoint)     
+archiv.f:52:C        COMMONS SHARED BY JON
+archiv.f:53:      COMMON/CI5/ABUND(16),ANJON(16,5),H(5),PART(16,5),DXI,F1,F2,F3,F4,
+archiv.f:55:      COMMON/CI1/FL2(5),PARCO(45),PARQ(180),SHXIJ(5),TPARF(4),
+archiv.f:57:      COMMON/CI4/ IELEM(16),ION(16,5),TMOLIM,MOLH
+archiv.f:58:      COMMON/CARC3/F1P,F3P,F4P,F5P,HNIC,PRESMO(30)
+archiv.f:59:      COMMON/CMOL2/NMOL,PPKDUM(30)
+archiv.f:60:      COMMON/TIO/PTIO(NDP),ROSAV(NDP),POXG1(NDP)
+archiv.f:61:      COMMON/CMOL1/DUMDUM2(9),FOE,DUMDUM3(4)
+archiv.f:63:C        COMMON SHARED BY DETABS
+archiv.f:64:      COMMON/CARC4/PROV(mkomp),NPROVA,NPROVS,NPROV
+archiv.f:65:      COMMON /CHAR/ ABNAME(mkomp),SOURCE(mkomp)
+archiv.f:71:      common /auxabund/ abSc,abTi,abV,abMn,abCo
+archiv.f:72:* common for partial pressures
+archiv.f:76:      common /tsuji/ tsuji,tsuswitch,nattsuji,nmotsuji,
+archiv.f:79:      common /fullequilibrium/ partryck(ndp,maxmol),
+archiv.f:84:      common/refabundances/ inputabund,inputamass,inputaname
+archiv.f:87:      common/turbul/xit
+archiv.f:94:      common/ccontmolc/ const,opc,wmol,cmol
+archiv.f:97:      common/c030617/ prnton     
+archiv.f:100:      common/cemu/ emueqmol 
+bpl.f:4:      COMMON /BPLC/EX,X5
+bpl.f:5:* common planck holds a multiplicative constant for bpl and divbp 
+bpl.f:8:      common /planck/cplank
+checkpartf.f:20:      common/comfh1/c,nelem,natom,mmax,ppmol,d00,qmol,apm,mol,ip,
+detabs.f:37:C        CONTENTS OF COMMON/CI5/, COMMUNICATING PHYSICAL INFORMATION FROM
+detabs.f:56:C        THE DIMENSIONS ARE LOWER LIMITS. DIMENSIONS IN COMMON /CA5/ ARE
+detabs.f:81:      common/hlicnt/ edgeba, edgepa, edgebr, edgepf, edge6
+detabs.f:82:* common block declarations:
+detabs.f:85:      COMMON /CI5/ ABUND,ANJON,H,PART,DXI,F1,F2,F3,F4,F5,XKHM,XMH,XMY   /ci5/
+detabs.f:90:      COMMON /CA5/AB,FAKT,PE,T,XLA,XLA3,RO,SUMABS,SUMSCA,VIKTR,ISET,NLB /ca5/
+detabs.f:93:      COMMON /UTPUT/ IREAD,IWRIT                                        /utput/
+detabs.f:97:      COMMON /CARC4/ PROV,nprova,nprovs,nprov                           /carc4/
+detabs.f:100:      COMMON /LDOPAC/ ALES,BLES                                         /ldopac/
+detabs.f:106:      common/rhotsu/rho,xmytsuji,ejontsuji
+detabs.f:107:      common/fullequilibrium/partryck(ndp,maxmol),
+detabs.f:110:      common/orderedpress/presneutral(ndp,100),presion(ndp,100),
+detabs.f:114:      COMMON /CHAR/ ABNAME(mkomp),SOURCE(mkomp)
+detabs.f:117:      COMMON/CA2/ABKOF(nabdim),KOMPLA(mkomp*20),KOMPR,KOMPS,NKOMP
+detabs.f:119:      common/c030617/ prnton      
+die_pe.f:42:        common /density/ndensity,molweight,xmass,atmass
+die_pe.f:43:	COMMON/COMFH1/C,NELEM,NATOM,MMAX,PPMOL,d00,qmol,APM,MOL,IP,
+die_pe.f:49:        common /ci5/abund(16),anjon(16,5),h(5),part(16,5),dxi,
+die_pe.f:54:        common /tsuji/ tsuji,tsuswitch,nattsuji,nmotsuji,
+die_pe.f:56:        common/funco/ kpe,dfdp,pe,elmolec,molions
+die_pe_lu.f:40:        common /density/ndensity,molweight,xmass,atmass
+die_pe_lu.f:41:        COMMON/COMFH1/C,NELEM,NATOM,MMAX,PPMOL,d00,qmol,APM,MOL,IP,
+die_pe_lu.f:47:        common /ci5/abund(16),anjon(16,5),h(5),part(16,5),dxi,
+die_pe_lu.f:52:        common /tsuji/ tsuji,tsuswitch,nattsuji,nmotsuji,
+die_pe_lu.f:54:        common/funco/ kpe,dfdp,pe,elmolec,molions
+dumin.f:7:      COMMON /UTPUT/IREAD,IWRIT
+eqmol_pe.f:36:* common block plez contains the names of all the molecules. variable names
+eqmol_pe.f:37:* is just a copy of mol. This is done to avoid carrying around the common
+eqmol_pe.f:45:        common/files/molec,met
+eqmol_pe.f:56:        common /plez/ names,tselem,fictpres_h
+eqmol_pe.f:68:        COMMON/COMFH1/C,NELEM,NATOM,MMAX,PPMOL,d00,qmol,
+eqmol_pe.f:76:        common/ci1/ fl2,parco,parq,shxij,tparf,xiong,eev,enamn,sumh,
+eqmol_pe.f:79:        common/orderedpress/presneutral(ndp,100),presion(ndp,100),
+eqmol_pe.f:86:        common /density/ndensity,molweight,xmass,atmass
+eqmol_pe.f:89:* commons from injon
+eqmol_pe.f:92:      COMMON/CI5/ABUND(16),ANJON(16,5),H(5),PART(16,5),DXI,
+eqmol_pe.f:95:      COMMON/CMOL1/EH,FE,FH,FHE,FC,FCE,FN,FNE,FO,FOE,FK,FKE,FS,FSE
+eqmol_pe.f:98:      COMMON /CMOL2/jonnmol,PK(30)
+eqmol_pe.f:102:      common /auxabund/ absc,abti,abv,abmn,abco
+eqmol_pe.f:103:* common for partial pressures
+eqmol_pe.f:107:      common /tsuji/ tsuji,tsuswitch,nattsuji,nmotsuji,
+eqmol_pe.f:111:      common /filetsuji/ filmet,filmol
+eqmol_pe.f:112:      common/rhotsu/rho,xmytsuji,ejontsuji
+eqmol_pe.f:113:      common/zzzz/factmet
+eqmol_pe.f:117:      common/refabundances/ inputabund,inputamass,inputaname
+eqmol_pe.f:120:c      common/ch2p/ partph2p
+eqmol_pe.f:122:      common/cemu/ emu
+eqmol_pe_lu.f:36:* common block plez contains the names of all the molecules. variable names
+eqmol_pe_lu.f:37:* is just a copy of mol. This is done to avoid carrying around the common
+eqmol_pe_lu.f:45:        common/files/molec,met
+eqmol_pe_lu.f:56:        common /plez/ names,tselem,fictpres_h
+eqmol_pe_lu.f:68:        COMMON/COMFH1/C,NELEM,NATOM,MMAX,PPMOL,d00,qmol,
+eqmol_pe_lu.f:76:        common/ci1/ fl2,parco,parq,shxij,tparf,xiong,eev,enamn,sumh,
+eqmol_pe_lu.f:79:        common/orderedpress/presneutral(ndp,100),presion(ndp,100),
+eqmol_pe_lu.f:86:        common /density/ndensity,molweight,xmass,atmass
+eqmol_pe_lu.f:89:* commons from injon
+eqmol_pe_lu.f:92:      COMMON/CI5/ABUND(16),ANJON(16,5),H(5),PART(16,5),DXI,
+eqmol_pe_lu.f:95:      COMMON/CMOL1/EH,FE,FH,FHE,FC,FCE,FN,FNE,FO,FOE,FK,FKE,FS,FSE
+eqmol_pe_lu.f:98:      COMMON /CMOL2/jonnmol,PK(30)
+eqmol_pe_lu.f:102:      common /auxabund/ absc,abti,abv,abmn,abco
+eqmol_pe_lu.f:103:* common for partial pressures
+eqmol_pe_lu.f:107:      common /tsuji/ tsuji,tsuswitch,nattsuji,nmotsuji,
+eqmol_pe_lu.f:111:      common /filetsuji/ filmet,filmol
+eqmol_pe_lu.f:112:      common/rhotsu/rho,xmytsuji,ejontsuji
+eqmol_pe_lu.f:113:      common/zzzz/factmet
+eqmol_pe_lu.f:117:      common/refabundances/ inputabund,inputamass,inputaname
+eqmol_pe_lu.f:120:c      common/ch2p/ partph2p
+eqmol_pe_lu.f:122:      common/cemu/ emu
+funcv.f:34:	COMMON/COMFH1/C,NELEM,NATOM,MMAX,PPMOL,d00,qmol,APM,MOL,IP,
+funcv.f:38:        common/funco/kpe,dfdp,pe,elmolec,molions
+hydropacmodif.f:26:      common /statec/ppr(ndp),ppt(ndp),pp(ndp),gg(ndp),zz(ndp),dd(ndp),
+hydropacmodif.f:29:      common /orderedpress/ presneutral(ndp,100),presion(ndp,100),
+hydropacmodif.f:31:      common /osopac/ osopx(ndp,lpoint),osops(ndp,lpoint)
+hydropacmodif.f:33:      common /osopacnt/ osopxc(ndp,lpoint),osopsc(ndp,lpoint)      
+hydropacmodif.f:34:      common /cvaagl/ nlb,xlb(lpoint),w(lpoint)
+hydropacmodif.f:35:      common /turbul/ xit
+hydropacmodif.f:36:      common/rossc/ xkapr(ndp),cross(ndp)
+hydropacmodif.f:37:      common/tio/ ptio(ndp),rho(ndp),poxg1(ndp)
+hydropacmodif.f:38:      common/hlicnt/ edgeba, edgepa, edgebr, edgepf, edge6    
+inabs.f:93:      COMMON/CARC4/PROV(mkomp),NDUM(3)
+inabs.f:94:      COMMON /CHAR/ ABNAME(mkomp),SOURCE(mkomp)
+inabs.f:95:      COMMON/UTPUT/IREAD,IWRIT
+inabs.f:96:      COMMON/CA1/DELT(mkomp,2),TBOT(mkomp,2),IDEL(mkomp),ISVIT(mkomp),
+inabs.f:99:      COMMON/CA2/ABKOF(nabdim),KOMPLA(mkomp*20),KOMPR,KOMPS,NKOMP
+inabs.f:100:      COMMON/CA3/ILOGTA(mkomp),NULL
+inabs.f:101:      COMMON/CFIL/IRESET(numbset),ISLASK,IREAT
+inabs.f:102:      COMMON/CXLSET/NSET,NL(numbset),XL(20,numbset)
+initjn.f:4:      COMMON /UTPUT/IREAD,IWRIT
+injon.f:90:      COMMON/CI1/FL2(5),PARCO(45),PARQ(180),SHXIJ(5),TPARF(4),
+injon.f:92:      COMMON/CI9/AI
+injon.f:93:      COMMON/CI3/ALFA(300),GAMMA(300),G0(45),G2(80),XION(80),XL(80),
+injon.f:95:      COMMON/CI4/ IELEM(16),ION(16,5),TMOLIM,MOLH
+injon.f:96:      COMMON/CI5/ABUND(16),ANJON(16,5),H(5),PART(16,5),DXI,F1,F2,F3,F4,
+injon.f:98:      COMMON/CI6/IQFIX(16,5),NQTEMP,TP
+injon.f:99:      COMMON/UTPUT/IREAD,IWRIT
+injon.f:105:      common/refabundances/ inputabund,inputamass,inputaname
+injon.f:108:      common /auxabund/ absc,abti,abv,abmn,abco                         /auxabund/
+injon.f:109:      common/zzzz/factmet
+injon.f:385:C        PARQ IS IN COMMON/CI1/ AND IS USED IN SUBROUTINE JON. PARF IS JUST
+jon.f:28:C        DIMENSIONS OF ARRAYS IN COMMONS /CI1/,/CI4/,/CI5/ AND /CI6/ ARE
+jon.f:42:      COMMON/CI1/FL2(5),PARCO(45),PARQ(180),SHXIJ(5),TPARF(4),
+jon.f:44:      COMMON/CI4/ IELEM(16),ION(16,5),TMOLIM,MOLH
+jon.f:45:      COMMON/CI5/ABUND(16),ANJON(16,5),H(5),PART(16,5),DXI,F1,F2,F3,F4,
+jon.f:47:      COMMON/CI6/IQFIX(16,5),NQTEMP,TP
+jon.f:48:      COMMON/CI7/A(5),PFISH,ITP
+jon.f:49:      COMMON/UTPUT/IREAD,IWRIT
+jon.f:50:      COMMON/RABELL/XXRHO(NDP),XYRHO
+jon.f:51:      COMMON/CI8/YYPG,YYRHO,YYE
+jon.f:52:      COMMON/CMOL1/EH,FE,FH,FHE,FC,FCE,FN,FNE,FO,FOE,FK,FKE,FS,FSE
+jon.f:53:      COMMON/CMOL2/NMOL,PK(30)
+jon.f:54:      COMMON/CARC3/F1P,F3P,F4P,F5P,HNIC,PRESMO
+jon.f:57:      common/plez/names,tselem(100),fictpres_h
+jon.f:59:      common /cphydro/ phydro
+jon.f:61:* common for partial pressures
+jon.f:64:      common /tsuji/ tsuji,tsuswitch,nattsuji,nmotsuji,
+jon.f:67:      common/rhotsu/ rho,xmytsuji,ejontsuji
+jon.f:70:      common /density/ndensity,molweight,xmass,atmass
+kap5.f:6:      COMMON /CXLSET/NSET,NL(numbset),XL(20,numbset)
+marcs35sph.f:56:      COMMON /CIT/IT,ITMAX
+marcs35sph.f:57:      COMMON /CI4/DUM(97),MOLH
+marcs35sph.f:58:      COMMON /CPF/PF,PFE,PFD,FIXROS,ITSTOP
+marcs35sph.f:60:      COMMON /CARC1/ISTRAL,IDRAB1,IDRAB2,IDRAB3,IDRAB4,IDRAB5,
+marcs35sph.f:62:      COMMON /NEWMO/NEWMOD
+marcs35sph.f:64:      common /ctevolv/ TEVOLV
+marcs35sph.f:66:      common/omstart/ finame
+marcs35sph.f:74:      common /vers35/version35
+marcs35sph.f:75:      common /geom/ geometry
+marcs35sph.f:77:      common /special/special,stopgpe,rspe
+marcs35sph.f:80:      common /tsuji/ tsuji,tsuswitch,nattsuji,nmotsuji,
+marcs35sph.f:83:      common /filetsuji/ filmet,filmol
+marcs35sph.f:86:      common/eqeosdbg/ molidbg 
+marcs35sph.f:89:      COMMON /CARC2/TKORRM(NDP),FCCORR(NDP),FLUXME(lpoint),INORD,
+marcs35sph.f:93:      common/clockmess/ outmess
+marcs35sph.f:95:      common/xands/ index_of_depth_wanted      
+modjon.f:28:      COMMON /CI3/DUM(1100),IFISH
+modjon.f:29:      COMMON /CI4/IELEM(16),ION(16,5),TMOLIM,MOLH
+modjon.f:30:      COMMON /CI6/IQFIX(16,5),NQTEMP,TP
+molecpartf.f:23:       common/comfh1/c,nelem,natom,mmax,ppmol,d00,qmol,apm,mol,ip,
+molecpartf.f:28:      common /density/ndensity,molweight,xmass,atmass
+molecpartf.f:30:      COMMON/CI5/ABUND(16),ANJON(16,5),H(5),PART(16,5),DXI,
+momeqcheck.f:6:      COMMON /CG/GRAV
+momeqcheck.f:7:      COMMON /CSPHER/NCORE,TAURAT,RADIUS,RR(NDP)
+momeqcheck.f:8:      COMMON /STATEC/PPR(NDP),PPT(NDP),PP(NDP),GG(NDP),ZZ(NDP),DD(NDP),
+momeqcheck.f:11:      common /momeq/pgcheck(ndp),pcheck(ndp),pecheck(ndp)
+momeqcheck.f:12:      COMMON /ROSSC/ROSS(NDP),CROSS(NDP)
+momeqcheck.f:14:      COMMON /CPF/PF,PFE,PFD,FIXROS,ITSTOP
+momeqcheck.f:21: 100    format(' k ',i3,' pg from jon ',1p,e11.4,' pg from common ',
+momeqcheck.f:47: 199  format('  k (dp(common)/dr-gro)/gro dp(jon)/dr etc  ',
+newsta.f:7:      COMMON /STATEC/B(11*NDP+2+ndp)
+oldsta.f:8:      COMMON /STATEC/PPR(NDP),PPT(NDP),PP(NDP),GG(NDP),ZZ(NDP),DD(NDP),
+oldsta.f:10:      COMMON /SPACE1/APP(13*NDP),TAULNP(NDP),SP1DUM((2*NDP-5)*NDP),
+oldsta.f:12:      common/cresume/ ndprev 
+oldsta.f:22:      common/omstart/ finame
+oldsta.f:24:      common /babsma/mocode,xls,gravl,intryc,scale
+oldsta.f:25:      common /specnew9/ nlp,xlr(20+1),taus(ndp)
+oldsta.f:26:      COMMON /NEWMO/NEWMOD
+oldsta.f:27:      COMMON /TAUC/TAU(NDP),DTAULN(NDP),JTAU
+oldsta.f:121:* common/space1/ temporarily - scaling is done in subr. onfrom.   
+oldsta.f:151:            print*,'ERROR! Length of common block in stored model seems'
+oldsta.f:246:            print*,'ERROR! Length of common block in stored model seems'
+oldsta_test.f:8:      COMMON /STATEC/PPR(NDP),PPT(NDP),PP(NDP),GG(NDP),ZZ(NDP),DD(NDP),
+oldsta_test.f:10:      COMMON /SPACE1/APP(13*NDP),TAULNP(NDP),SP1DUM((2*NDP-5)*NDP),
+oldsta_test.f:20:      common /babsma/mocode,xls,gravl,intryc,scale
+oldsta_test.f:21:      common /specnew9/ nlp,xlr(20+1),taus(ndp)
+oldsta_test.f:22:      COMMON /NEWMO/NEWMOD
+oldsta_test.f:23:      COMMON /TAUC/TAU(NDP),DTAULN(NDP),JTAU
+oldsta_test.f:85:* common/space1/ temporarily - scaling is done in subr. onfrom.   
+oldsta_test.f:107:            print*,'ERROR! Length of common block in stored model seems'
+oldsta_test.f:201:            print*,'ERROR! Length of common block in stored model seems'
+onfrom.f:7:      COMMON /STATEC/A(10*NDP),TAULN(NDP),NTAU,ITER,erad(ndp)
+onfrom.f:8:      COMMON /SPACE1/APP(13*NDP),TAULNP(NDP),SP1DUM((2*NDP-5)*NDP),
+onfrom.f:10:      COMMON /CSPHER/NCORE,TAURAT,RADIUS,RR(NDP)
+onfrom.f:11:      COMMON /TAUC/TAU(NDP),DLNTAU(NDP),JTAU 
+onfrom.f:12:      COMMON /ROSSC/ROSS(NDP),CROSS(NDP)
+onfrom.f:13:      common /cresume/ ndprev
+osabsko.f:31:C        DIMENSIONS OF ARRAYS IN COMMONS /CA2/,/CA3/ AND /CFIL/ ARE COMMENTED
+osabsko.f:32:C        ON IN SUBROUTINE INABS, THOSE OF ARRAYS IN COMMON /CA4/ IN SUBROUTINE
+osabsko.f:48:      COMMON/UTPUT/IREAD,IWRIT
+osabsko.f:49:      COMMON/CA2/ABKOF(nabdim),KOMPLA(20*mkomp),KOMPR,KOMPS,NKOMP
+osabsko.f:50:      COMMON/CA3/ILOGTA(mkomp),NULL
+osabsko.f:51:      COMMON/CA4/AFAK(KFADIM),NOFAK(IFADIM),NPLATS(IFADIM)
+osabsko.f:52:      COMMON/CA5/AB(mkomp),FAKT(mkomp),PE(NDP),T(NDP),XLA(20),XLA3(20),
+osabsko.f:55:      COMMON/CFIL/IRESET(numbset),ISLASK,IREAT
+osabsko.f:56:      COMMON/COUTR/NTO,NTPO(10)
+osabsko.f:57:      COMMON/CROS/ROSW(20)
+osabsko.f:58:      COMMON /CARC3/ F1P,F3P,F4P,F5P,HNIC,PRESMO(30)
+osabsko.f:59:      COMMON /CARC4/ PROV(mkomp),NPROVA,NPROVS,NPROV
+osabsko.f:60:      COMMON /TIO/PTIO(NDP),ROsav(NDP),POXG1(NDP)
+osabsko.f:61:      COMMON/CI4/ IELEM(16),ION(16,5),TMOLIM,MOLH
+osabsko.f:62:      COMMON/CMOL1/EH,FE,FH,FHE,FC,FCE,FN,FNE,FO,FOE,FK,FKE,FS,FSE
+osabsko.f:63:      COMMON /DENSTY/ ROTEST(NDP),PRH2O(NDP)
+osabsko.f:65:      common/c030617/ prnton
+osdata_35.f:11:      common/catfil/atomsfile
+osdata_35.f:12:      common/osdata/nspec,spenam,spefil
+osdata_35.f:13:      common/osfil/nmetfile,osfile(maxspe)
+osinit.f:21:      COMMON /CA1/ DELT,TBOT,IDEL,ISVIT,ITETA,KVADT,                    /ca1/
+osinit.f:25:      COMMON /CFIL/ IRESET,ISLASK,IREAT                                 /cfil/
+osinit.f:29:      COMMON /CXLSET/ NSET,NL,XL                                        /cxlset/
+osinit.f:33:      COMMON /CROS/ WROS                                                /cros/
+osinit.f:36:      COMMON /UTPUT/ IREAD,IWRIT                                        /utput/
+osinit.f:40:      COMMON /COUTR/ NTO,NTPO                                           /coutr/
+osinit.f:45:      COMMON /CVAAGL/ NLB,xlb,W                                         /cvaagl/
+osinit.f:47:* common for wavelengths to be used for reading of odf table
+osinit.f:50:      common /odfwav/ nlbod,odxlb,odw                                   /odfwav/
+osinit.f:53:      COMMON /CLINE4/ ILINE                                             /cline4/
+osinit.f:56:      common/specnew9/nlp,xlr(20+1),taus(ndp)
+osinit.f:57:      common/newmo/newmod
+osinit.f:60:      common /rossoption/detailedross
+osinit.f:62:      common /vers35/version35
+osinit.f:64:      common/ctempcorr/ tcrmaxsrf, tcrmaxbot, pcrmax, pecrmax, tconv
+oslistmo.f:22:      COMMON /UTPUT/IREAD,IWRIT
+oslistmo.f:23:      COMMON /MASSE/RELM,RELLUM,RELATM,RELRAD,BOLMAG      
+oslistmo.f:30:      COMMON /CARC1/ISTRAL,IDRAB1,IDRAB2,IDRAB3,IDRAB4,IDRAB5,
+oslistmo.f:34:      common/refabundances/ inputabund,inputamass,inputaname
+oslistmo.f:36:      common/specnew9/nlp,xlr,taus
+osmainb.f:12:      common /newmo/ newmod
+osmainb.f:13:      COMMON /UTPUT/IREAD,IWRIT
+osmainb.f:14:      COMMON /CG/GRAV /CTEFF/TEFF,FLUX
+osmainb.f:15:      COMMON /CSTYR/MIHAL,NOCONV /CXMAX/XMAX /CTAUM/TAUM
+osmainb.f:16:      COMMON /MIXC/PALFA,PBETA,PNY,PY /CVFIX/VFIX
+osmainb.f:17:      COMMON /CANGLE/MMY,XMY(6),XMY2(6),H(6)
+osmainb.f:20:      COMMON /CARC1/ISTRAL,IDRAB1,IDRAB2,IDRAB3,IDRAB4,IDRAB5,IDRAB6,
+osmainb.f:22:      COMMON /CLINE4/ILINE
+osmainb.f:23:      COMMON /NATURE/BOLTZK,CLIGHT,ECHARG,HPLNCK,CPI,PI4C,RYDBRG,
+osmainb.f:25:      COMMON /CSPHER/NCORE,TAURAT,RADIUS,RR(NDP)
+osmainb.f:26:      COMMON /CPOLY/FACPLY
+osmainb.f:28:      common /osuse/metos
+osmainb.f:29:      COMMON /CMETBL/METBL
+osmainb.f:30:      COMMON /MASSE/RELM,RELLUM,RELATM,RELRAD,BOLMAG
+osmainb.f:33:      common /tsuji/ tsuji,tsuswitch,nattsuji,nmotsuji,
+osmainb.f:35:      common /turbul/xit
+osmainb.f:38:      common /macroturb/ macrovel,macrobeta
+osmet_35.f:38:      common /osopac/ osopx(ndp,lpoint),osops(ndp,lpoint)
+osmet_35.f:39:      common /cvaagl/ nlb,xlb(lpoint),w(lpoint)
+osmet_35.f:40:      common /statec/ppr(ndp),ppt(ndp),pp(ndp),gg(ndp),zz(ndp),dd(ndp),
+osmet_35.f:44:      common /ci5/ ci5abund(16),ci5dummy(174)
+osmet_separate_35.f:19:      common /osopac/ osopx(ndp,lpoint),osops(ndp,lpoint)
+osmet_separate_35.f:20:      common /cvaagl/ nlb,xlb(lpoint),w(lpoint)
+osmet_separate_35.f:21:      common /statec/ppr(ndp),ppt(ndp),pp(ndp),gg(ndp),zz(ndp),dd(ndp),
+osopac_35.f:12:C     They are sent back through the common block 'osopac'
+osopac_35.f:28:      COMMON /TAUC/TAU(NDP),DUMT(NDP),JTAU
+osopac_35.f:29:      COMMON /STATEC/PPR(NDP),PPT(NDP),PP(NDP),GG(NDP),ZZ(NDP),DD(NDP),
+osopac_35.f:32:      COMMON /ROSSC/XKAPR(NDP),CROSS(NDP)
+osopac_35.f:33:      COMMON /CXLSET/NSET,NL(numbset),XL(20,numbset)
+osopac_35.f:34:      COMMON /CVAAGL/NLB,XLB(lpoint),W(lpoint)
+osopac_35.f:35:      COMMON /CLINE1/LINUN,XLINLO,XLINUP,NTSKAL,TSKAL(30),NPSKAL,
+osopac_35.f:37:      COMMON /CLINE2/FACTOR(NDP,2,2),IT(NDP),IPE1(NDP),IPE2(NDP)
+osopac_35.f:38:      COMMON /CLINE4/ILINE
+osopac_35.f:39:      COMMON /CXMAX/XMAX
+osopac_35.f:40:      COMMON /ODFCD/CONODF(NDP,8)
+osopac_35.f:41:      COMMON /CPF/PF,PFE,PFD,FIXROS,ITSTOP
+osopac_35.f:43:      COMMON /TIO/ PTIO(NDP),ROSAV(NDP),POXG1(NDP)
+osopac_35.f:44:      COMMON /CMOL1/DMUDMU(9),FOE,MUDMUD(4)
+osopac_35.f:45:      COMMON/CI4/ IELEM(16),ION(16,5),TMOLIM,MOLH
+osopac_35.f:46:      COMMON/CI5/ABUND(16),ANJON(16,5),H(5),PART(16,5),DXI,F1,F2,F3,F4,
+osopac_35.f:48:      COMMON /CARC3/ F1P,F3P,F4P,F5P,HNIC,PRESMO(30)
+osopac_35.f:49:      COMMON /DENSTY/ BPZ(NDP),PRH2O(NDP)
+osopac_35.f:50:      COMMON /CMETBL/METBL
+osopac_35.f:52:      common /osuse/metos
+osopac_35.f:68:* new commons for opacity os
+osopac_35.f:74:      common /osdata/nspec,spenam,spefil
+osopac_35.f:75:      common /osopac/ osopx(ndp,lpoint),osops(ndp,lpoint)
+osopac_35.f:77:      common /osopacnt/ osopxc(ndp,lpoint),osopsc(ndp,lpoint)
+osopac_35.f:79:* common for partial pressures
+osopac_35.f:83:      common /tsuji/ tsuji,tsuswitch,nattsuji,nmotsuji,
+osopac_35.f:87:      common /fullequilibrium/ partryck(ndp,maxmol),
+osopac_35.f:89:      common /orderedpress/ presneutral(ndp,100),presion(ndp,100),
+osopac_35.f:95:      common/density/ndensity,molweight,xmass,atmass
+osopac_35.f:103:      common/ccontmolc/ const,opc,wmol,cmol
+osopac_35.f:105:      common/turbul/xit
+osopac_35.f:108:      common/clockmess/ outmess
+osopac_35.f:120:      COMMON /NEWMO/NEWMOD
+osopac_35.f:137:      common/xands/ index_of_depth_wanted
+osopacr.f:7:      common /vers35/version35
+ossolve.f:59:      COMMON /STATEC/PPR(NDP),PPT(NDP),PP(NDP),GG(NDP),ZZ(NDP),DD(NDP),
+ossolve.f:93:C CONNECTIONS VIA COMMON.
+ossolve.f:94:C THE COMMENTED COMMONS MUST BE INITIATED OUTSIDE THIS ROUTINE BEFORE IT
+ossolve.f:101:      COMMON /TAUC/TAU(NDP),DTAULN(NDP),JTAU
+ossolve.f:102:      COMMON /CVAAGL/NLAM,XL,W
+ossolve.f:103:      COMMON /CSTYR/MIHAL,NOCONV /DEBUG/KDEBUG
+ossolve.f:104:      COMMON /MIXC/PALFA,PBETA,PNY,PY /CVFIX/VFIX
+ossolve.f:105:      COMMON /CG/GRAV /CTEFF/TEFF,FLUX
+ossolve.f:106:      COMMON /NATURE/BOLTZK,CLIGHT,ECHARG,HPLNCK,PI,PI4C,RYDBRG,
+ossolve.f:108:      COMMON /CPF/PF,PFE,PFD,FIXROS,ITSTOP
+ossolve.f:110:      COMMON /CSPHER/NCORE,DIFLOG,RADIUS,RR(NDP)
+ossolve.f:112:C OWN COMMONS
+ossolve.f:113:      COMMON /CTRAN/X,S,BPLAN,XJ,HFLUX,XK,FJ(NDP),SOURCE(NDP),TAUS(NDP)
+ossolve.f:115:* common planck holds a multiplicative constant for bpl and divbp 
+ossolve.f:117:      common /planck/cplank
+ossolve.f:118:      COMMON /CSURF/HSURF,Y1(NRAYS)
+ossolve.f:119:      COMMON /ROSSC/ROSS(NDP),CROSS(NDP) /RHOC/RHO(NDP)
+ossolve.f:120:      common /exactross/rossexact
+ossolve.f:121:      common /derivross/crosst(ndp),crosspe(ndp),
+ossolve.f:125:      COMMON /CARC1/ISTRAL,IDRAB1,IDRAB2,IDRAB3,IDRAB4,IDRAB5,IDRAB6,
+ossolve.f:127:      COMMON /CARC2/T,FC,FLUXME(lpoint),INORD,TAU5(NDP)
+ossolve.f:128:      common /carc2c/ fluxmec(lpoint)
+ossolve.f:129:      COMMON /CI8/PGC,ROC,EC
+ossolve.f:130:      COMMON /NEWMO/NEWMOD
+ossolve.f:131:      COMMON /MASSE/RELM,RELLUM,RELATM,RELRAD,BOLMAG      
+ossolve.f:132:      common /transsave/xlambdasave
+ossolve.f:133:      common /cline4/iline
+ossolve.f:135:      common /momeq/pgcheck(ndp),pcheck(ndp),pecheck(ndp)
+ossolve.f:137:* new common for os opacities (computed in osopac)
+ossolve.f:138:      common /osopac/ osopx(ndp,lpoint),osops(ndp,lpoint)
+ossolve.f:139:      common /osopacnt/ osopxc(ndp,lpoint),osopsc(ndp,lpoint)      
+ossolve.f:150:      COMMON /SPACE1/XJ1,XJ2,XJ3,TJ1,TJ2,XJT1,XJT2,XJT3,PRJ,TTT,PRT
+ossolve.f:153:      COMMON /SPACE2/ SPACEDUM1(NDP*7+NDP*NRAYS*5+NRAYS*2+1),
+ossolve.f:158:      common /special/special,stopgpe,rspe
+ossolve.f:160:      common /ctranprnt/ tranprnt
+ossolve.f:162:      common/cxlset/nset,nl(numbset),xlxl(20,numbset)
+ossolve.f:163:      common/specnew9/nlp,xlr(20+1),taustd(ndp)
+ossolve.f:168:      common /rossoption/detailedross
+ossolve.f:174:      common /macroturb/macrovel,macrobeta
+ossolve.f:177:      common/clockmess/ outmess      
+ossolve.f:180:      common /ctevolv/ TEVOLV
+ossolve.f:183:      common/ctempcorr/ tcrmaxsrf, tcrmaxbot, pcrmax, pecrmax, tconv
+ossolve.f:259:c       COMMON /STATEC/PPR(ndp),PPT(ndp),PP(ndp),GG(ndp),ZZ(ndp),DD(ndp),
+qas.f:18:      COMMON/UTPUT/IREAD,IWRIT
+qtrav.f:12:C        DIMENSIONS OF ARRAYS IN COMMON /CI3/ ARE COMMENTED ON IN SUBROUTINE
+qtrav.f:16:      COMMON/CI3/ALFA(300),GAMMA(300),G0(45),G2(80),XION(80),XL(80),
+qtrav.f:18:      COMMON/CI7/A(5),PFISH,ITP
+readabund.f:13:      common/catfil/atomsfile
+readabund.f:15:      common /turbul/xitt
+rossop.f:9:      COMMON /CPF/PF,PFE,PFD,FIXROS,itstop
+scale.f:4:C THIS ROUTINE SCALES THE MODEL PRESENTLY IN THE COMMON /STATEC/ (AND
+scale.f:6:C IN THE ORDINARY COMMON'S /CTEFF/ AND /CG/.
+scale.f:11:      COMMON /STATEC/PPR(NDP),PPT(NDP),PP(NDP),GG(NDP),ZZ(NDP),DD(NDP),
+scale.f:13:      COMMON /ROSSC/ROSS(NDP),CROSS(NDP)
+scale.f:14:      COMMON /MASSE/RELM,RELLUM,RELATM,RELRAD,BOLMAG      
+scale.f:15:      common/geom/  geometry
+scale.f:16:      common/cspher/ncore,taurat,radius,rr(ndp)
+scale.f:17:      common /derivross/crosst(ndp),crosspe(ndp),
+scale.f:19:      COMMON /CTEFF/TEFF,FLUX /CG/GRAV
+scale.f:20:      COMMON /NATURE/BOLTZK,CLIGHT,ECHARG,HPLNCK,PI,PI4C,RYDBRG,
+scale.f:22:      COMMON /MIXC/PALFA,PBETA,PNY,PY    /CSTYR/ MIHAL,NOCONV
+scale.f:23:      COMMON /TAUC/TAU(NDP),DTAULN(NDP),JTAU
+setdis.f:12:      COMMON/CXLSET/NSET,NL(numbset),XL(20,numbset)
+setdis.f:13:      COMMON/CLINE1/LINUN,XLINLO,XLINUP,NTSKAL,TSKAL(30),NPSKAL,
+setdis.f:15:      COMMON/CLINE3/GLAMD(1000),JLBDS
+setdis.f:16:      COMMON/UTPUT/IREAD,IWRIT
+setdis.f:17:        COMMON/CLINE4/ILINE
+startm.f:13:      COMMON /STATEC/PPR(NDP),PPT(NDP),PP(NDP),GG(NDP),
+startm.f:17:C CONNECTIONS VIA COMMON.
+startm.f:18:C THE COMMENTED COMMONS MUST BE INITIATED OUTSIDE THIS ROUTINE BEFORE IT
+startm.f:24:      COMMON /TAUC/TAU(NDP),DTAULN(NDP),JTAU
+startm.f:25:      COMMON /CSTYR/MIHAL,NOCONV /DEBUG/KDEBUG
+startm.f:26:      COMMON /MIXC/PALFA,PBETA,PNY,PY /CVFIX/VFIX
+startm.f:27:      COMMON /CG/GRAV /CTEFF/TEFF,FLUX
+startm.f:28:      COMMON /NATURE/BOLTZK,CLIGHT,ECHARG,HPLNCK,PI,PI4C,RYDBRG,
+startm.f:30:C OWN COMMONS
+startm.f:31:      COMMON /ROSSC/ROSS(NDP),CROSS(NDP)
+startm.f:34:      COMMON /CARC1/ISTRAL,IDRAB1,IDRAB2,IDRAB3,IDRAB4,IDRAB5,
+startm.f:36:      COMMON /CI8/PGC,RHOC,EC
+startm.f:39:      common/clockmess/ outmess
+startm.f:42:      common /ctevolv/ TEVOLV
+tabs.f:20:C        THE DIMENSIONS ARE LOWER LIMITS. DIMENSIONS OF ARRAYS IN COMMON /CA1/
+tabs.f:35:      COMMON/UTPUT/IREAD,IWRIT
+tabs.f:36:      COMMON/CA1/DELT(mkomp,2),TBOT(mkomp,2),IDEL(mkomp),ISVIT(mkomp),
+tabs.f:39:      COMMON/CA2/ABKOF(nabdim),KOMPLA(20*mkomp),KOMPR,KOMPS,NKOMP
+tabs.f:40:      COMMON/CA4/AFAK(KFADIM),NOFAK(IFADIM),NPLATS(IFADIM)
+takemolec.f:9:* one needs placed in the common 'fullequilibrium'.
+takemolec.f:12:* The values in the common fullequilibrium can then be used for
+takemolec.f:24:      common /tsuji/ tsuji,tsuswitch,nattsuji,nmotsuji,
+takemolec.f:28:      common /fullequilibrium/ partryck(ndp,maxmol),
+takemolec.f:30:      common /orderedpress/ presneutral(ndp,100),presion(ndp,100),
+takemolec.f:32:      COMMON/CARC3/F1P,F3P,F4P,F5P,HNIC,PRESMO(30)
+takemolec.f:33:      common/ci1/fl2(5),parco(45),parq(180),shxij(5),tparf(4),
+takemolec.f:36:* common from eqmol
+takemolec.f:48:      COMMON/COMFH1/C,NELEM,NATOM,MMAX,PPMOL,d00,qmol,APM,MOL,IP,
+takemolec.f:53:      common/ci5/abund,anjon,h,part,dxi,f1,f2,f3,f4,f5,xkhm,xmh,xmy
+takemolec.f:111:* the ones in presmo (common carc3). See data block molinpresmo.
+tausca.f:9:      COMMON /TAUC/TAU(NDP),DTAULN(NDP),JTAU
+tausca.f:10:      COMMON /CSTYR/MIHAL,NOCONV      
+tausca.f:11:      COMMON /STATEC/DUM1(10*NDP),TAULN(NDP),NTAU,ITER,erad(ndp)
+tausca.f:15:c      common /macroturb/ macrovel,macrobeta,pmagnetic,pmagswitch
+tausca.f:18:      common /macroturb/ macrovel,macrobeta
+traneq.f:33:      COMMON /CTRAN/X(NDP),S(NDP),BPLAN(NDP),XJ(NDP),XH(NDP),XK(NDP)
+traneq.f:36:      common/savetran/ savex(ndp),saves(ndp),savebplan(ndp)
+traneq.f:38:* common planck holds a multiplicative constant for bpl and divbp 
+traneq.f:40:      common /planck/cplank
+traneq.f:41:      common /underfl/xhsave(ndp)
+traneq.f:43:      COMMON /CVAAGL/NLAM,XL,W
+traneq.f:44:      common /transsave/xlambdasave
+traneq.f:45:      COMMON /TAUC/TAU(NDP),DTAULN(NDP),JTAU   
+traneq.f:46:      COMMON /ROSSC/ROSS(NDP),CDUMM(NDP) 
+traneq.f:47:      COMMON /RHOC/RHO(NDP)
+traneq.f:48:      COMMON /SPACE2/ERROR(NDP),FACT(NDP),DSO(NDP),
+traneq.f:55:      COMMON /CSPHER/NCORE,DIFLOG,RADIUS,RR(NDP)
+traneq.f:56:      COMMON /TRDBUG/IDEBUG
+tranfr.f:19:      COMMON /CTRAN/X(NDP),S(NDP),BPLAN(NDP),XJ(NDP),XH(NDP),XK(NDP),
+tranfr.f:21:* common planck holds a multiplicative constant for bpl and divbp 
+tranfr.f:23:      common /planck/cplank
+tranfr.f:24:      COMMON /TAUC/TAU(NDP),DTAULN(NDP),JTAU
+tranfr.f:25:      COMMON /SPACE2/ERROR(NDP),FACT(NDP),DSO(NDP),
+tranfr.f:32:      COMMON /CSPHER/NCORE,DIFLOG,RADIUS,RR(NDP)
+tranfr.f:33:      COMMON /CSURF/HSURF,YSURF(NRAYS)
+tranfr.f:34:      COMMON /ROSSC/ROSS(NDP),CDUMM(NDP) /RHOC/RHO(NDP)
+tranfr.f:35:      COMMON /TRDBUG/IDEBUG
+tranfr.f:36:      common /transsave/xlambdasave
+tranfr.f:39:      common /ctranprnt/ tranprnt
+transc.f:14:      COMMON /CTRAN/X(NDP),S(NDP),BPLAN(NDP),XJ(NDP),XH(NDP),XK(NDP)
+transc.f:16:* common planck holds a multiplicative constant for bpl and divbp 
+transc.f:18:      common /planck/cplank
+transc.f:19:      COMMON /TAUC/TAU(NDP),DTAULN(NDP),JTAU
+transc.f:20:      COMMON /SPACE2/ERROR(NDP),FACT(NDP),DSO(NDP),
+transc.f:26:      COMMON /CSPHER/NCORE,DIFLOG,RADIUS,RR(NDP)
+trrays.f:7:      COMMON /CTRAN/X(NDP),S(NDP),BPLAN(NDP),XJ(NDP),XH(NDP),XK(NDP)
+trrays.f:9:* common planck holds a multiplicative constant for bpl and divbp 
+trrays.f:12:      common /planck/cplank
+trrays.f:13:      common /underfl/xhsave(ndp)
+trrays.f:14:      COMMON /TAUC/TAU(NDP),DTAULN(NDP),JTAU
+trrays.f:15:      COMMON /SPACE2/ERROR(NDP),FACT(NDP),DSO(NDP),
+trrays.f:22:      COMMON /CSPHER/NCORE,TLIM,RADIUS,RR(NDP)
+trrays.f:23:      COMMON /CSTYR/MIHAL,NOCONV  /CTAUM/TAUM
+trrays_pr.f:7:      COMMON /CTRAN/X(NDP),S(NDP),BPLAN(NDP),XJ(NDP),XH(NDP),XK(NDP)
+trrays_pr.f:9:* common planck holds a multiplicative constant for bpl and divbp 
+trrays_pr.f:12:      common /planck/cplank
+trrays_pr.f:13:      common /underfl/xhsave(ndp)
+trrays_pr.f:14:      COMMON /TAUC/TAU(NDP),DTAULN(NDP),JTAU
+trrays_pr.f:15:      COMMON /SPACE2/ERROR(NDP),FACT(NDP),DSO(NDP),
+trrays_pr.f:22:      COMMON /CSPHER/NCORE,TLIM,RADIUS,RR(NDP)
+trrays_pr.f:23:      COMMON /CSTYR/MIHAL,NOCONV  /CTAUM/TAUM
+trrays_pr.f:26:      common /ctranprnt/ tranprnt
+trrays_pr.f:27:      COMMON /CVAAGL/NLAM,XL,W
+tryck.f:4:      common/geom/ geometry
+tryck.f:35:      COMMON /STATEC/PPR(NDP),PPT(NDP),PP(NDP),GG(NDP),ZZ(NDP),DD(NDP),
+tryck.f:38:      COMMON /TAUC/TAU(NDP),DLNTAU(NDP),JTAU 
+tryck.f:39:      COMMON /CG/GRAV
+tryck.f:40:      COMMON /ROSSC/ROSS(NDP),CROSS(NDP)
+tryck.f:41:      common /derivross/crosst(ndp),crosspe(ndp),
+tryck.f:43:      COMMON /CI8/PGC,RHOC,EC
+tryck.f:44:      COMMON /CSPHER/NCORE,TAURAT,RADIUS,RR(NDP)
+tryck.f:45:      common /momeq/pgcheck(ndp),pcheck(ndp),pecheck(ndp)
+tryck.f:47:      common /special/special,stopgpe,rspe
+tryck.f:49:      COMMON/CA5/AB(mkomp),FAKT(mkomp),PE(NDP),T(NDP),XLA(20),XLA3(20),
+tryck.f:215:      COMMON /STATEC/PPR(ndp),PPT(ndp),PP(ndp),GG(ndp),ZZ(ndp),DD(ndp),
+tryck.f:217:      COMMON /TAUC/TAU(ndp),DLNTAU(ndp),JTAU
+tryck.f:218:      common /CG/GRAV
+tryck.f:219:      common /ROSSC/ROSS(ndp),cross(ndp)
+tryck.f:220:      common /derivross/crosst(ndp),crosspe(ndp),
+tryck.f:222:      common /momeq/pgcheck(ndp),pcheck(ndp),pecheck(ndp)
+tryck.f:223:      COMMON /CI8/PGC,RHOC,EC
+vaagl.f:17:      COMMON/UTPUT/IREAD,IWRIT
+vaagl.f:18:      COMMON/CLINE3/GLAMD,JLBDS
+vaagl.f:19:      COMMON/LDOPAC/ ALES,BLES
