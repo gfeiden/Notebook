@@ -1,0 +1,14 @@
+# Properties for HD 144548 an eclipsing heirarchical triple in the K2 field
+#
+# Alonso et al. (2015, arXiv: 1511.03083)
+#
+# Notes:
+#    - Second set of properties for HD 144548 Ba/Bb were also derived, but
+#      with a different method. No comment is made on the disagreement.
+#
+#  Star       M(Mo)    eM(Mo)    R(Ro)   eR(Ro)   Teff  eTeff   log(L/Lo)  elog(L/L0)
+HD144548A     1.44     0.04      2.41    0.03     6138   100      0.80       0.08
+HD144548Ba    0.984    0.007     1.319   0.010
+HD144548Bb    0.944    0.017     1.330   0.010
+#HD144548Ba  0.966   0.007   1.319   0.010
+#HD144548Bb  0.961   0.017   1.330   0.010

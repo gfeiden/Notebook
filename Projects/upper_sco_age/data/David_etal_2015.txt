@@ -1,0 +1,17 @@
+# Properties for 3 eclipsing binary systems in the K2 field.
+# 
+# David et al. (2015, arXiv: 1510.08087)
+#
+# Notes: 
+#    - UScoCTIO5 also characterized by Kraus et al. (2015)
+#    - EPIC 203710387 also characterized by Lodieu et al. (2015)  
+#
+#  Star          M(Mo)     eM(Mo)  R(Ro)    eR(Ro)   Teff  eTeff   log(L/Lo)  elog(L/L0)
+UScoCTIO5A       0.3336   0.0022   0.862    0.012
+UScoCTIO5B       0.3200   0.0022   0.852    0.013
+EPIC203710387A   0.1147   0.0031   0.4324   0.0062   2893   149     -1.93       0.08
+EPIC203710387B   0.1039   0.0027   0.4324   0.0062   2849   143     -1.95       0.07
+EPIC203476597A   1.41     0.17     1.72     0.2
+EPIC203476597B   0.84     0.12     0.96     0.27
+EPIC203868608A   0.02216  0.00045  0.2823   0.0051   2830    30  
+EPIC203868608B   0.02462  0.00055  0.2551   0.0036   2980    75  

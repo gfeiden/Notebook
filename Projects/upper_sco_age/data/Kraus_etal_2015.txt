@@ -1,0 +1,7 @@
+# Properties for UScoCTIO5: an eclipsing binary in the K2 field.
+# 
+# Kraus et al. (2015, ApJ, 807, 3)
+#
+#  Star          M(Mo)   eM(Mo) R(Ro)   eR(Ro)  Teff   eTeff   log(L/Lo)  elog(L/L0)
+UScoCTIO5A      0.3287  0.0024  0.834   0.006   3200    75      -1.19      0.10
+UScoCTIO5B      0.3165  0.0016  0.810   0.006   3200    75      -1.19      0.10

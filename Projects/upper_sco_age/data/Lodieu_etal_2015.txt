@@ -1,0 +1,10 @@
+# Properties for EPIC 203710387 an eclipsing binary in the K2 field
+#
+# Lodieu et al. (2015, arXiv: 1511.03083)
+#
+# Notes: 
+#    - EPIC 203710387 also characterized by David et al. (2015)
+#
+#  Star          M(Mo)    eM(Mo)    R(Ro)   eR(Ro)   Teff  eTeff   log(L/Lo)  elog(L/L0)
+EPIC203710387A   0.091    0.005    0.388    0.008    2901   185     -2.02      0.10
+EPIC203710387B   0.084    0.004    0.380    0.008    2908   185     -2.03      0.10
