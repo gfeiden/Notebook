@@ -1,0 +1,327 @@
+CIAh2h.f:75:        propac=1.e-30
+CIAh2h2.f:75:        propac=1.e-30
+CIAh2he.f:75:        propac=1.e-30
+CIAhhe.f:75:        propac=1.e-30
+archiv.f:156:cc        print 215, k,log10(max(1.e-30,xmettryck(k,1))),
+archiv.f:186:C  10 PRESMP(I)=AMAX1(PRESMO(I),1.E-298)
+archiv.f:187:   10 PRESMP(I)=MAX(PRESMO(I),1.E-30)
+archiv.f:217:cc      EMU=(1.38*RO*T(K))/(1.67E-8*PG)
+archiv.f:218:      EMU=(1.380658*RO*T(K))/(1.660540e-8*PG)
+bpl.f:13:      cplank=1.e-15
+checkpartf.f:33:          if (abs(1.-(partition(nt)/sngl(qmol(index)))).gt.1.e-4) then
+detabs.f:179:      rhokt=rho*1.38066e-16*t(ntp)
+detabs.f:180:      kt=1.38066e-16*t(ntp)
+detabs.f:183:***      hnh=presneutral(ntp,1)/(rho*1.38066e-16*t(ntp))
+detabs.f:190:* in case you would wonder about this 1.e-18 factor for H-
+detabs.f:191:      fakt(1)=1.e-18*partryck(ntp,1)/rhokt
+detabs.f:192:      fakt(19)=pe(ntp)*presneutral(ntp,1)/rhokt*1.e-26
+detabs.f:195:      xfakh=2.0898e-26*presneutral(ntp,1)/(rhokt*part(1,1))
+detabs.f:219:      fakt(20)=(presneutral(ntp,1)/rhokt*1.e-25)*
+detabs.f:220:     &         (presneutral(ntp,1)/kt*1.e-25)
+detabs.f:222:      fakt(21)=(presneutral(ntp,1)/rhokt*1.e-20)*
+detabs.f:223:     &         (presion(ntp,1)/kt*1.e-20)
+detabs.f:230:      fakt(24)=(pe(ntp)/kt)*(presion(ntp,2)/rhokt)*1.e-20*1.e-20
+detabs.f:232:      fakt(25)=pe(ntp)*presneutral(ntp,2)/rhokt*1.e-26
+detabs.f:238:      fakt(28)=(pe(ntp)/kt)*(presion(ntp,6)/rhokt)*1.e-20*1.e-20
+detabs.f:240:      fakt(29)=(pe(ntp)/kt)*(presion2(ntp,6)/rhokt)*1.e-20*1.e-20
+detabs.f:242:      fakt(30)=pe(ntp)*presneutral(ntp,6)/rhokt*1.e-27
+detabs.f:248:      fakt(33)=pe(ntp)*presneutral(ntp,7)/rhokt*1.e-27
+detabs.f:254:      fakt(36)=pe(ntp)*presneutral(ntp,8)/rhokt*1.e-26
+detabs.f:256:      fakt(37)=pe(ntp)*partryck(ntp,7)/rhokt*1.e-26
+detabs.f:258:      fakt(38)=pe(ntp)*partryck(ntp,4)/rhokt*1.e-26
+detabs.f:281:      fakt(48)=partryck(ntp,6)*13.02/6.023e23/rhokt
+detabs.f:283:      fakt(49)=partryck(ntp,5)*17.01/6.023e23/rhokt   
+detabs.f:286:      fakt(50)=(pe(ntp)/kt)*(presion(ntp,12)/rhokt)*1.e-20*1.e-20
+detabs.f:288:      fakt(51)=(pe(ntp)/kt)*(presion(ntp,14)/rhokt)*1.e-20*1.e-20
+detabs.f:302:      fakt(52)=(pe(ntp)/kt)*(presmetion/rhokt)*1.e-20*1.e-20
+detabs.f:306:      ELS(NTP)=4.8206E-9*PE(NTP)/(T(NTP)*RO)
+detabs.f:311:cc      ph2=ph2*1.38e-16*0.987e-6*273.
+detabs.f:313:c      phtva(ntp)=(partryck(ntp,2)*273./t(ntp)*0.987e-6)*
+detabs.f:314:c     &           (partryck(ntp,2)*273./t(ntp)*0.987e-6)/rho
+detabs.f:315:      phtva(ntp)=(partryck(ntp,2)/t(ntp)*2.6945e-04)**2/rho
+detabs.f:317:cc      PHEL(NTP)=PHEL(NTP)*1.38E-16*0.987E-6*273.
+detabs.f:319:c      phel(ntp)=(presneutral(ntp,2)*273./t(ntp)*0.987e-6)*
+detabs.f:320:c     &           (partryck(ntp,2)*273./t(ntp)*0.987e-6)/rho
+detabs.f:321:      phel(ntp)=(presneutral(ntp,2)/t(ntp)*2.6945e-04)*
+detabs.f:322:     ,  (partryck(ntp,2)/t(ntp)*2.6945e-04)/rho
+detabs.f:323:      ph2h(ntp)=(presneutral(ntp,1)/t(ntp)*2.6945e-04)*
+detabs.f:324:     ,  (partryck(ntp,2)/t(ntp)*2.6945e-04)/rho
+detabs.f:325:      phhe(ntp)=(presneutral(ntp,1)/t(ntp)*2.6945e-04)*
+detabs.f:326:     ,  (presneutral(ntp,2)/t(ntp)*2.6945e-04)/rho
+detabs.f:453:      OMEGA=1./XLA(JP)*1.E+8
+detabs.f:502:        RAYH=XRAY2*XRAY2*(5.799E-13+XRAY2*(1.422E-6+XRAY2*2.784))*
+detabs.f:511:      RAYHe=0.66520e-24*4.*(500./xla(jp))**4*heray(ntp)
+detabs.f:514:      RAYH2=XRAY2*XRAY2*(8.14E-13+XRAY2*(1.28E-6+XRAY2*1.61))*H2RAY(NTP)
+die_pe.f:69:      ECONST=4.342945E-1
+die_pe.f:72:cc        epsdie=1.e30
+die_pe.f:90:      DHH=(((0.1196952E-02*T-0.2125713E-01)*T+0.1545253E+00)*T
+die_pe.f:91:     &    -0.5161452E+01)*T+0.1277356E+02
+die_pe.f:384:      epsf=1.e-10
+die_pe.f:554:            errx=1.e10
+die_pe.f:580:        alamin=1.e-3
+die_pe_lu.f:68:      ECONST=4.342945E-1
+die_pe_lu.f:71:cc        epsdie=1.e30
+die_pe_lu.f:87:      DHH=(((0.1196952E-02*T-0.2125713E-01)*T+0.1545253E+00)*T
+die_pe_lu.f:88:     &    -0.5161452E+01)*T+0.1277356E+02
+die_pe_lu.f:324:      epsf=1.e-10
+die_pe_lu.f:492:            errx=1.e10
+die_pe_lu.f:518:        alamin=1.e-3
+eqmol_pe.f:99:      real eh2,eh2p,ehm,ehj,eh2o,eoh,ech,eco,ecn,ec2,en2,eo2,eno,enh
+eqmol_pe.f:131:	ECONST=4.342945E-1
+eqmol_pe.f:132:	AVO=0.602217E+24
+eqmol_pe.f:136:        atmass(99)=5.4858e-4
+eqmol_pe.f:141:        eps=1.e-4
+eqmol_pe.f:319:        ndensity=pg/1.38066e-16/tem
+eqmol_pe.f:320:        molweight=(molweight+pe*atmass(99))/1.38066e-16/tem
+eqmol_pe.f:336:1111      format(i3,2x,a8,e10.2,1x,f6.2)
+eqmol_pe.f:493:      rho=rho*1.2123e-8/tt
+eqmol_pe.f:494:* 1.2123e-8 == mH/k = amu*1.00797/k
+eqmol_pe.f:650:c      EH=EH2+EH2P+EHM+EHJ+EH2O+EOH+ECH+ECO+ECN+EC2+EN2+EO2+ENO+ENH
+eqmol_pe.f:706:5012    FORMAT ('''',A8,'''',1x,1pE11.5,1x,4(1pE12.5,1x),0pI1,4(I3,I4))
+eqmol_pe.f:708:5021    FORMAT (F10.3,E12.5,E12.6)
+eqmol_pe_lu.f:99:      real eh2,eh2p,ehm,ehj,eh2o,eoh,ech,eco,ecn,ec2,en2,eo2,eno,enh
+eqmol_pe_lu.f:131:	ECONST=4.342945E-1
+eqmol_pe_lu.f:132:	AVO=0.602217E+24
+eqmol_pe_lu.f:136:        atmass(99)=5.4858e-4
+eqmol_pe_lu.f:142:        eps=1.e-4
+eqmol_pe_lu.f:322:        ndensity=pg/1.38066e-16/tem
+eqmol_pe_lu.f:323:        molweight=(molweight+pe*atmass(99))/1.38066e-16/tem
+eqmol_pe_lu.f:340:1111      format(i3,2x,a8,e10.2,1x,f6.2)
+eqmol_pe_lu.f:497:      rho=rho*1.2123e-8/tt
+eqmol_pe_lu.f:498:* 1.2123e-8 == mH/k = amu*1.00797/k
+eqmol_pe_lu.f:653:c      EH=EH2+EH2P+EHM+EHJ+EH2O+EOH+ECH+ECO+ECN+EC2+EN2+EO2+ENO+ENH
+eqmol_pe_lu.f:709:5012    FORMAT ('''',A8,'''',1x,1pE11.5,1x,4(1pE12.5,1x),0pI1,4(I3,I4))
+eqmol_pe_lu.f:711:5021    FORMAT (F10.3,E12.5,E12.6)
+gausi.f:39:      IF(ABS(FLK-FK)-1.E-7)2,1,1
+hlinopbpz.f:231:     1 0.000E+00, 4.696E+08, 9.980E+07, 3.017E+07, 1.155E+07, 5.189E+06,
+hlinopbpz.f:232:     2 2.616E+06, 1.437E+06, 8.444E+05, 5.234E+05, 3.389E+05, 2.275E+05,
+hlinopbpz.f:233:     3 1.575E+05, 1.120E+05, 8.142E+04, 6.040E+04, 4.560E+04, 3.496E+04,
+hlinopbpz.f:234:     4 2.719E+04, 2.141E+04, 1.711E+04, 1.377E+04, 1.119E+04, 9.166E+03,
+hlinopbpz.f:235:     5 7.572E+03, 6.341E+03, 5.338E+03, 4.523E+03, 3.854E+03, 3.302E+03,
+hlinopbpz.f:236:     6 2.844E+03, 2.460E+03, 2.138E+03, 1.866E+03, 1.635E+03, 1.438E+03,
+hlinopbpz.f:237:     7 1.269E+03, 1.124E+03, 9.983E+02, 8.894E+02, 7.947E+02, 7.120E+02,
+hlinopbpz.f:238:     8 6.396E+02, 5.759E+02, 5.198E+02, 4.703E+02, 4.263E+02, 3.873E+02,
+hlinopbpz.f:239:     9 3.526E+02, 3.215E+02, 2.938E+02, 2.689E+02, 2.465E+02, 2.264E+02,
+hlinopbpz.f:240:     A 2.082E+02, 1.918E+02, 1.769E+02, 1.634E+02, 1.512E+02, 1.400E+02,
+hlinopbpz.f:241:     1 1.298E+02, 1.206E+02, 1.121E+02, 1.043E+02, 9.720E+01, 9.066E+01,
+hlinopbpz.f:242:     2 8.465E+01, 7.912E+01, 7.403E+01, 6.933E+01, 6.498E+01, 6.097E+01,
+hlinopbpz.f:243:     3 5.725E+01, 5.381E+01, 5.061E+01, 4.765E+01, 4.489E+01, 4.232E+01,
+hlinopbpz.f:244:     4 3.994E+01, 3.771E+01, 3.563E+01, 3.369E+01, 3.188E+01, 3.019E+01,
+hlinopbpz.f:245:     5 2.860E+01, 2.712E+01, 2.572E+01, 2.442E+01, 2.319E+01, 2.204E+01,
+hlinopbpz.f:246:     6 2.096E+01, 1.994E+01, 1.898E+01, 1.808E+01, 1.722E+01, 1.642E+01,
+hlinopbpz.f:247:     7 1.566E+01, 1.495E+01, 1.427E+01, 1.363E+01/
+hlinopbpz.f:252:     1 0.000E+00, 6.265E+08, 1.897E+08, 8.126E+07, 4.203E+07, 2.450E+07,
+hlinopbpz.f:253:     2 1.236E+07, 8.249E+06, 5.782E+06, 4.208E+06, 3.158E+06, 2.430E+06,
+hlinopbpz.f:254:     3 1.910E+06, 1.567E+06, 1.274E+06, 1.050E+06, 8.752E+05, 7.373E+05,
+hlinopbpz.f:255:     4 6.269E+05, 5.375E+05, 4.643E+05, 4.038E+05, 3.534E+05, 3.111E+05,
+hlinopbpz.f:256:     5 2.752E+05, 2.447E+05, 2.185E+05, 1.959E+05, 1.763E+05, 1.593E+05,
+hlinopbpz.f:257:     6 1.443E+05, 1.312E+05, 1.197E+05, 1.094E+05, 1.003E+05, 9.216E+04,
+hlinopbpz.f:258:     7 8.489E+04, 7.836E+04, 7.249E+04, 6.719E+04, 6.239E+04, 5.804E+04,
+hlinopbpz.f:259:     8 5.408E+04, 5.048E+04, 4.719E+04, 4.418E+04, 4.142E+04, 3.888E+04,
+hlinopbpz.f:260:     9 3.655E+04, 3.440E+04, 3.242E+04, 3.058E+04, 2.888E+04, 2.731E+04,
+hlinopbpz.f:261:     A 2.585E+04, 2.449E+04, 2.322E+04, 2.204E+04, 2.094E+04, 1.991E+04,
+hlinopbpz.f:262:     1 1.894E+04, 1.804E+04, 1.720E+04, 1.640E+04, 1.566E+04, 1.496E+04,
+hlinopbpz.f:263:     2 1.430E+04, 1.368E+04, 1.309E+04, 1.254E+04, 1.201E+04, 1.152E+04,
+hlinopbpz.f:264:     3 1.105E+04, 1.061E+04, 1.019E+04, 9.796E+03, 9.419E+03, 9.061E+03,
+hlinopbpz.f:265:     4 8.721E+03, 8.398E+03, 8.091E+03, 7.799E+03, 7.520E+03, 7.255E+03,
+hlinopbpz.f:266:     5 7.002E+03, 6.760E+03, 6.530E+03, 6.310E+03, 6.100E+03, 5.898E+03,
+hlinopbpz.f:267:     6 5.706E+03, 5.522E+03, 5.346E+03, 5.177E+03, 5.015E+03, 4.860E+03,
+hlinopbpz.f:268:     7 4.711E+03, 4.569E+03, 4.432E+03, 4.300E+03/
+hlinopbpz.f:349:      PARAMETER (CLIGHT = 2.99792458E18)
+hlinopbpz.f:350:      PARAMETER (CLIGHTCM = 2.99792458E10)
+hlinopbpz.f:365:      DATA SIGMA /3.304E-18, 6.497E-18, 1.178E-17/
+hlinopbpz.f:373:      FO = 1.25E-9*XNE**0.66667 ! Holtsmark normal field strength
+hlinopbpz.f:428:         RESONT = RESONT * 2.07E-24/GNM
+hlinopbpz.f:429:         VDW = 4.45E-26/GNM*(XM2*(7.*XM2+5.))**0.4
+hlinopbpz.f:430:         STARK = 1.6678E-18*FREQNM*XKNM
+hlinopbpz.f:735:      DATA Y1WTM/1.E18, 1.E17, 1.E16, 1.E14/
+hlinopbpz.f:738:      PARAMETER (CLIGHT = 2.9979258E18)
+hlinopbpz.f:740:      PARAMETER (H = 6.62618E-27)  !Planck in cgs
+hlinopbpz.f:741:      PARAMETER (K = 1.38066E-16)  !Boltzmann in cgs
+hlinopbpz.f:758:      FO = XNE16**4*1.25E-9      ! Holtsmark normal field strength
+hlinopbpz.f:762:      C2D = FO**2/5.96E-23/XNE
+hlinopbpz.f:763:      GCON1 = 0.2+0.09*SQRT(T4)/(1.+XNE/1.E13)
+hlinopbpz.f:764:      GCON2 = 0.2/(1.+XNE/1.E15)
+hlinopbpz.f:810:            Y1WHT = 1.E14
+hlinopbpz.f:812:            Y1WHT = 1.E13
+hlinopbpz.f:837:      IF ((Y2.LE.1.E-4).AND.(Y1.LE.1.E-5)) THEN
+hlinopbpz.f:842:         IF (GAM.LE.1.E-20) GAM = 0.
+hlinopmodif.f:228:     1 0.000E+00, 4.696E+08, 9.980E+07, 3.017E+07, 1.155E+07, 5.189E+06,
+hlinopmodif.f:229:     2 2.616E+06, 1.437E+06, 8.444E+05, 5.234E+05, 3.389E+05, 2.275E+05,
+hlinopmodif.f:230:     3 1.575E+05, 1.120E+05, 8.142E+04, 6.040E+04, 4.560E+04, 3.496E+04,
+hlinopmodif.f:231:     4 2.719E+04, 2.141E+04, 1.711E+04, 1.377E+04, 1.119E+04, 9.166E+03,
+hlinopmodif.f:232:     5 7.572E+03, 6.341E+03, 5.338E+03, 4.523E+03, 3.854E+03, 3.302E+03,
+hlinopmodif.f:233:     6 2.844E+03, 2.460E+03, 2.138E+03, 1.866E+03, 1.635E+03, 1.438E+03,
+hlinopmodif.f:234:     7 1.269E+03, 1.124E+03, 9.983E+02, 8.894E+02, 7.947E+02, 7.120E+02,
+hlinopmodif.f:235:     8 6.396E+02, 5.759E+02, 5.198E+02, 4.703E+02, 4.263E+02, 3.873E+02,
+hlinopmodif.f:236:     9 3.526E+02, 3.215E+02, 2.938E+02, 2.689E+02, 2.465E+02, 2.264E+02,
+hlinopmodif.f:237:     A 2.082E+02, 1.918E+02, 1.769E+02, 1.634E+02, 1.512E+02, 1.400E+02,
+hlinopmodif.f:238:     1 1.298E+02, 1.206E+02, 1.121E+02, 1.043E+02, 9.720E+01, 9.066E+01,
+hlinopmodif.f:239:     2 8.465E+01, 7.912E+01, 7.403E+01, 6.933E+01, 6.498E+01, 6.097E+01,
+hlinopmodif.f:240:     3 5.725E+01, 5.381E+01, 5.061E+01, 4.765E+01, 4.489E+01, 4.232E+01,
+hlinopmodif.f:241:     4 3.994E+01, 3.771E+01, 3.563E+01, 3.369E+01, 3.188E+01, 3.019E+01,
+hlinopmodif.f:242:     5 2.860E+01, 2.712E+01, 2.572E+01, 2.442E+01, 2.319E+01, 2.204E+01,
+hlinopmodif.f:243:     6 2.096E+01, 1.994E+01, 1.898E+01, 1.808E+01, 1.722E+01, 1.642E+01,
+hlinopmodif.f:244:     7 1.566E+01, 1.495E+01, 1.427E+01, 1.363E+01/
+hlinopmodif.f:249:     1 0.000E+00, 6.265E+08, 1.897E+08, 8.126E+07, 4.203E+07, 2.450E+07,
+hlinopmodif.f:250:     2 1.236E+07, 8.249E+06, 5.782E+06, 4.208E+06, 3.158E+06, 2.430E+06,
+hlinopmodif.f:251:     3 1.910E+06, 1.567E+06, 1.274E+06, 1.050E+06, 8.752E+05, 7.373E+05,
+hlinopmodif.f:252:     4 6.269E+05, 5.375E+05, 4.643E+05, 4.038E+05, 3.534E+05, 3.111E+05,
+hlinopmodif.f:253:     5 2.752E+05, 2.447E+05, 2.185E+05, 1.959E+05, 1.763E+05, 1.593E+05,
+hlinopmodif.f:254:     6 1.443E+05, 1.312E+05, 1.197E+05, 1.094E+05, 1.003E+05, 9.216E+04,
+hlinopmodif.f:255:     7 8.489E+04, 7.836E+04, 7.249E+04, 6.719E+04, 6.239E+04, 5.804E+04,
+hlinopmodif.f:256:     8 5.408E+04, 5.048E+04, 4.719E+04, 4.418E+04, 4.142E+04, 3.888E+04,
+hlinopmodif.f:257:     9 3.655E+04, 3.440E+04, 3.242E+04, 3.058E+04, 2.888E+04, 2.731E+04,
+hlinopmodif.f:258:     A 2.585E+04, 2.449E+04, 2.322E+04, 2.204E+04, 2.094E+04, 1.991E+04,
+hlinopmodif.f:259:     1 1.894E+04, 1.804E+04, 1.720E+04, 1.640E+04, 1.566E+04, 1.496E+04,
+hlinopmodif.f:260:     2 1.430E+04, 1.368E+04, 1.309E+04, 1.254E+04, 1.201E+04, 1.152E+04,
+hlinopmodif.f:261:     3 1.105E+04, 1.061E+04, 1.019E+04, 9.796E+03, 9.419E+03, 9.061E+03,
+hlinopmodif.f:262:     4 8.721E+03, 8.398E+03, 8.091E+03, 7.799E+03, 7.520E+03, 7.255E+03,
+hlinopmodif.f:263:     5 7.002E+03, 6.760E+03, 6.530E+03, 6.310E+03, 6.100E+03, 5.898E+03,
+hlinopmodif.f:264:     6 5.706E+03, 5.522E+03, 5.346E+03, 5.177E+03, 5.015E+03, 4.860E+03,
+hlinopmodif.f:265:     7 4.711E+03, 4.569E+03, 4.432E+03, 4.300E+03/
+hlinopmodif.f:346:      PARAMETER (CLIGHT = 2.9979258E18)
+hlinopmodif.f:347:      PARAMETER (CLIGHTCM = 2.99792458E10)
+hlinopmodif.f:361:      DATA SIGMA /3.304E-18, 6.497E-18, 1.178E-17/
+hlinopmodif.f:369:      FO = 1.25E-9*XNE**0.66667 ! Holtsmark normal field strength
+hlinopmodif.f:424:         RESONT = RESONT * 2.07E-24/GNM
+hlinopmodif.f:425:         VDW = 4.45E-26/GNM*(XM2*(7.*XM2+5.))**0.4
+hlinopmodif.f:426:         STARK = 1.6678E-18*FREQNM*XKNM
+hlinopmodif.f:716:      DATA Y1WTM/1.E18, 1.E17, 1.E16, 1.E14/
+hlinopmodif.f:719:      PARAMETER (CLIGHT = 2.9979258E18)
+hlinopmodif.f:721:      PARAMETER (H = 6.62618E-27)  !Planck in cgs
+hlinopmodif.f:722:      PARAMETER (K = 1.38066E-16)  !Boltzmann in cgs
+hlinopmodif.f:731:      FO = XNE16**4*1.25E-9      ! Holtsmark normal field strength
+hlinopmodif.f:735:      C2D = FO**2/5.96E-23/XNE
+hlinopmodif.f:736:      GCON1 = 0.2+0.09*SQRT(T4)/(1.+XNE/1.E13)
+hlinopmodif.f:737:      GCON2 = 0.2/(1.+XNE/1.E15)
+hlinopmodif.f:783:            Y1WHT = 1.E14
+hlinopmodif.f:785:            Y1WHT = 1.E13
+hlinopmodif.f:810:      IF ((Y2.LE.1.E-4).AND.(Y1.LE.1.E-5)) THEN
+hlinopmodif.f:815:         IF (GAM.LE.1.E-20) GAM = 0.
+hydropacmodif.f:39:      data  h1bfgc/1.0711223,  -3.0033216e-04,  
+hydropacmodif.f:40:     ;             1.0648009,  -5.1846584e-05,
+hydropacmodif.f:41:     ;             1.0478152,  -1.7104666e-05,
+hydropacmodif.f:42:     ;             1.0443061,  -8.2075951e-06,
+hydropacmodif.f:43:     ;             1.0421281,  -4.6750806e-06,
+hydropacmodif.f:44:     ;             1.0402398,  -2.9468910e-06,
+hydropacmodif.f:45:     ;             1.0347312,  -1.9145532e-06,
+hydropacmodif.f:46:     ;             1.0335221,  -1.3661146e-06,
+hydropacmodif.f:47:     ;             1.0335879,  -1.0323393e-06,
+hydropacmodif.f:48:     ;             1.0282216,  -7.4292798e-07,
+hydropacmodif.f:49:     ;             1.0337342,  -6.4224310e-07,
+hydropacmodif.f:50:     ;             1.0325113,  -5.1576699e-07,
+hydropacmodif.f:51:     ;             1.0321166,  -4.2484186e-07,
+hydropacmodif.f:52:     ;             1.0324288,  -3.6090637e-07,
+hydropacmodif.f:53:     ;             1.0329178,  -3.0957602e-07/    
+hydropacmodif.f:80:        ne(k)=pe(k)/(t(k)*1.38066e-16)
+hydropacmodif.f:81:        nh1(k)=presneutral(k,1)/(t(k)*1.38066e-16)
+hydropacmodif.f:82:        nhe1(k)=presneutral(k,2)/(t(k)*1.38066e-16)
+hydropacmodif.f:85:        hckt(k)=2.99792458e10*6.626075e-27/1.380658e-16*1.e8/t(k)
+hydropacmodif.f:86:        dopple(k)=sqrt( xit**2 * 1.e10 + 
+hydropacmodif.f:87:     &                 2.*1.380658e-16*t(k)/1.6738e-24) /
+hydropacmodif.f:88:     &                 2.99792458e10
+hydropacmodif.f:110: 	      alpha = 1.044e-26 * h1bfg * xlb(l)**3 / (i**5)
+hydropacmodif.f:119:	      if(contrib/osopx(k,l) .le. 1.e-4) goto 5
+hydropacmodif.f:155:          diffp=1.e30
+hydropacmodif.f:225:            if (contrib/osopx(k,l).le.1.e-4) goto 11
+hydropacmodif.f:253:            if (contrib/osopx(k,l).le.1.e-4) goto 12
+hydropacmodif.f:285:      data h/6.626e-27/, c/2.997925e10/, ionH/2.17991e-11/ 
+hydropacmodif.f:289:        x=1./(float(ni)**2) - h*c/(wave(ij)*1.e-8*ionH)
+hydropacmodif.f:324:      DATA IONH/2.17991E-11/ 
+hydropacmodif.f:325:      DATA A0  /5.29177E-9/
+hydropacmodif.f:326:      DATA E   /4.803207E-10/ 
+inabs.f:170:                XKAP(JJ,K)=1.E-37
+inabs.f:216:              if (ABS(1.-DIFF/DELT(KOMP,J)).ge.1.E-4) then
+inabs.f:447:                      ABKOF(LL)=1.E-37
+inabs.f:516:  206 FORMAT(' XTET=',10E12.4)
+inabs.f:517:  207 FORMAT(' XKAP(',I2,',',I2,')=',E12.5,' PUT = 1.E-37 BEFORE LOG HAS
+inabs.f:520:     *I3,' SET ',I2,' XTET NR ',I2,' ABKOF PUT=1.E-37   ***INABS***')
+injon.f:408:      EEV=1.602095E-12
+injon.f:409:      XMH=1.67339E-24
+injon.f:410:      XKBOL=1.38066e-16
+injon.f:471:  204 FORMAT(1H ,A2,E12.4,I5,5X,5(I5,I5,5X))
+jon.f:76:      data pep/-1.e10/
+jon.f:85:      if ((abs((t-tp)/t).lt.1.e-8).and.(abs((pe-pep)/pe).lt.1.e-8)) 
+jon.f:100:      IF(ABS((T-TP)/T).LT.1.E-8)GO TO 53
+jon.f:128:   53 DXI=4.98E-4*TETA*SQRT(PE)
+jon.f:291:cc      if ((abs((t-tp)/t).lt.3.e-2).and.(abs((pe-pep)/pe).lt.0.5)) 
+jon.f:293:      if ((abs((t-tp)/t).lt.1.e-1).and.(abs(log10(pe/pep)).lt.1.0)) 
+jon.f:301:* if first call, pep=-1.e10, so this scaling of pgin will be skipped
+jon.f:439:  203 FORMAT(6H      ,A2,E12.4,4F8.4)
+molfys.f:13:      DATA A1/12.739,-5.1172,1.2572E-1,-1.4149E-2,6.3021E-4/,
+molfys.f:33:      DEH2nodis=(B1(5)*TE(5)+DEH2)*8.617E-5*T
+molfys.f:34:      DEH2Pnodis=(B2(5)*TE(5)+DEH2P)*8.617E-5*T
+momeqcheck.f:19:       if ((abs((pgjon(k)-pgcheck(k))/pgcheck(k)).gt.1.e-3))
+onfrom.f:78: 4222 format(i3,1p10e11.4)
+onfrom.f:124: 4226  format('For variable',i3,'  values ',1p2e15.5,'  gives:',1pe12.5)
+oslistmo.f:225:       PTIO(I)=AMAX1(PTIO(I),1.E-30)
+oslistmo.f:332:  520 FORMAT(1X,5(F12.0,E13.5))
+oslistmo.f:508:     +'flux (= sigma*Teff**4)',1PE11.3,'  erg/s/cm**2'/' Acceleration',
+oslistmo.f:546:  206 FORMAT(I4,F13.7,F9.2,F11.2,1PE12.3,E12.2,I5)
+oslistmo.f:552:  209 FORMAT(I5,F12.7,F13.7,1PE13.3,0PF9.0,5(1PE12.3),I6)
+oslistmo.f:563:  212 FORMAT(I4,F12.5,1PE11.3,0PF8.3,6(1PE12.3),0PF9.5,I4)
+oslistmo.f:584: 2232 FORMAT(6X,A2,1PE12.3,0PF6.3,2(F8.4),16x,4x,1p,2e10.2)
+oslistmo.f:585: 2233 FORMAT(6X,A2,1PE12.3,0PF6.3,3(F8.4),8x,4x,1p,3e10.2)
+oslistmo.f:586: 2234 FORMAT(6X,A2,1PE12.3,0PF6.3,4(F8.4),4x,1p,4e10.2)
+oslistmo.f:587:  223 FORMAT(6X,A2,1PE12.3,0PF6.3,4(F8.4))  
+oslistmo.f:588:  224 FORMAT(1H+,62X,4(1PE10.2))
+oslistmo.f:599:  229 FORMAT(4(F12.0,1PE11.2,0PF9.3))
+osmainb.f:42:      !DATA TSUN,GSUN,RSUN/5777.,4.44,6.9598E10/
+osmainb.f:75:c      HPLNCK=6.62608E-27
+osmainb.f:76:c      BOLTZK=1.38066e-16
+osmainb.f:77:c      CLIGHT=2.997925E10
+osmainb.f:78:c      ECHARG=4.80298E-10
+osmainb.f:80:c stefan changed 021106 (fron 5.675e-5 )      
+osmainb.f:81:c      STEFAN=5.67040E-5
+osmainb.f:194:      IF (XMAX .EQ. 0.) XMAX = 1.E10
+osmainb.f:279:66    FORMAT(20X,'XMAX   =',1PE10.2)
+osmet_35.f:61:        xiturb(1)=xiturb(1)*1.e-5
+osmet_35.f:63:      if (abs(xiturb(1)-xit).gt.1.e-6) then
+osmet_separate_35.f:37:        xiturb(1)=xiturb(1)*1.e-5
+osmet_separate_35.f:39:      if (abs(xiturb(1)-xit).gt.1.e-6) then
+osopac_35.f:133:*      data epsilon/8.e-5/
+osopac_35.f:266:c        hydroconst(k)=presneutral(k,1)/(rosav(k)*t(k)*1.38066e-16)
+osopac_35.f:706:             xiturb(nxi)=xiturb(nxi)*1.e-5
+osopac_35.f:915:*  TEST GREY MODEL WITH KAPPA=1.e-2 cm2/g
+osopac_35.f:921:***        osopx(K,lambda)=1.e-2
+ossolve.f:272: 9755 format(i4,1p,12e12.4)
+ossolve.f:556:        if (info) write(20,'(1x,i3,4(1pe12.3))')
+ossolve.f:653:	if (info.and.j.eq.100.and.k.eq.1) write(20,'(1x,7(1pe10.2))')
+ossolve.f:677:	if (info.and.j.eq.100) write(20,'(1x,7(1pe10.2))')
+ossolve.f:695: 9454 format(f10.1,1p16e10.2)
+ossolve.f:753:c 7171 format(1p,2e15.7,/40(10e12.4/)) 
+ossolve.f:759: 7071   format(1p,10e12.4)
+ossolve.f:943:ccc173   FORMAT('0J0,J1,K,FH,HF,XH,DTAU,B,J,K,P=',3I3,1P,4E10.3/10E10.3)
+ossolve.f:951:ccc175   FORMAT(10E10.4)
+ossolve.f:1096:	          x(k)=1.e-6
+ossolve.f:1116:	          x(k)=1.e-6
+ossolve.f:1136:	      x(k)=1.e-6
+ossolve.f:1190:151   FORMAT(' TTT='/(I3,2(1PE10.3),20(/8(1PE10.3))))
+ossolve.f:1380:      PG1PE=0.
+ossolve.f:1750:        if(abs((rr(k)-rrprev(k))/rr(k)).gt.3.e-4) then
+ossolve.f:2239:50    FORMAT(4(/2X,1P10E13.5))
+ossolve.f:2240:51    FORMAT(I3,1P10E12.4,I4)
+ossolve.f:2250:58    FORMAT(I6,F9.1,F8.1,1P2E10.3,0PF6.3,1PE10.3,0PF8.3,
+ossolve.f:2251:     * F7.0,4F5.1,1PE10.3,2(0PF6.1),2I4,F6.3)
+ossolve.f:2261:64    FORMAT(' K=',I2,4X,'NEW V =',1PE10.3)
+ossolve.f:2262:65    FORMAT('0TOTAL FLUX=',1PE11.4,' ERGS/CM**2/S; FLUX/PI=',1PE11.4,
+ossolve.f:2263:     & ' ERGS/CM**2/S ;nominal:',1pe11.4,' ; TEFF=',0PF6.0,' K')
+pemake.f:9:c KE: 20030311:  eps 1.e-2 instead of 1.e-3
+pemake.f:10:      DATA IT,N,EPS/0,20,1.E-2/
+scale.f:53:	radius=6.9598e10 * 10.**(relrad)
+setdis.f:20:      xlinup=1.e30
+startm.f:62:      DT1=1.E10
+startm.f:80:      PPE(1)=1.E-3
+startm.f:88:c????	if(teff.lt.4000.) ross(1)=1.e-2
+startm.f:250:51    FORMAT(I8,1P10E12.4,I4)
+traneq.f:103:103   FORMAT('0X,S,B,XJ,D2B,XK='/(/10(1X,1P,10E12.4/)))
+traneq.f:124:122     FORMAT('0EX,SP1,SP2,SP3,P,DTAUS=',E10.4/(/10(1X,1P,10E12.4/)))
+traneq.f:150:132     FORMAT('0XJ,SO,ERR,FJ,PF='/(/10(1X,1P,10E12.4/)))
+tranfr.f:209:        ysurf(i)=1.e-30
+tranfr.f:381:236   FORMAT('0TAU=',10(/10E12.4)/'0X=',10(/10E12.4)/'0S=',10(/10E12.4)
+tranfr.f:382:     & /'0BPLAN=',10(/10E12.4)/'0RR=',10(/10E12.4)/'0RHO=',10(/10E12.4)
+tranfr.f:383:     & /'0ROSS=',10(/10E12.4)/'0SOURCE=',10(/10E12.4)
+tranfr.f:384:     & /'0YSURF,PFEAU='/(10E12.4))
+tryck.f:53:      DATA EPS,RELT,RELPE,PEDEF/1.E-3,1.E-3,1.E-3,1./
+tryck.f:225:      DATA EPS,RELT,RELPE,PEDEF/1.E-3,1.E-3,1.E-3,1./
